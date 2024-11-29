@@ -8,16 +8,7 @@ import ScheduleAppointment from '@/components/ScheduleAppointment.vue';
 </script>
 
 <template>
-    <Nav/>
-    <section class="contenedor formulario-agendar">
-        <div class=" contenedor__titulo text-center mb-4">
-            <h2 class="contenedor__titulo--texto"> Agendar Cita </h2>
-            <p class="contenedor__descripcion">Complete el formulario para agendar su cita </p>
-        </div>
-
-        <div class="contenedor__tarjeta card shadow-sm border-0 p-4"></div>
-    <router-link to="./ScheduleAppointmentView.vue"/>
-        <div class="history">
+   <section>
         <h1>Historial de Citas</h1>
         <h2>Citas Futuras</h2>
         <ul>
@@ -44,7 +35,6 @@ import ScheduleAppointment from '@/components/ScheduleAppointment.vue';
             <button type="submit">Guardar</button>
             <button @click="closeEditModal">Cancelar</button>
         </form>
-    </div>
     </div>
 </section>
 </template>
