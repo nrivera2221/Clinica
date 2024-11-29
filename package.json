@@ -1,5 +1,5 @@
 {
-  "name": "clinica",
+  "name": "clinica-digital",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^1.7.8",
     "clinica": "file:",
+    "clinica-digital": "file:",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5",
     "vuex": "^4.1.0"

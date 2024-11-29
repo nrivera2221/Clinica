@@ -35,4 +35,10 @@ export default {
 </template>
 
 <style>
+.login-view{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
 </style>
